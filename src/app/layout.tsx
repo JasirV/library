@@ -25,22 +25,28 @@ const kalam = Kalam({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Turmet - Travel & Tour Agency NextJS Template',
-    template: '%s | Turmet - Travel & Tour Agency NextJS Template',
+    default: 'Kerala Library - Knowledge & Learning Hub',
+    template: '%s | Kerala Library - Knowledge & Learning Hub',
   },
-  description: 'Turmet - Travel & Tour Agency NextJS Template',
+  description:
+    'Kerala Library is your gateway to knowledge and wisdom. Explore a wide collection of books, journals, and digital resources to inspire learning and research.',
   openGraph: {
-    title: 'Turmet - Travel & Tour Agency NextJS Template',
-    description: 'Turmet - Travel & Tour Agency NextJS Template',
+    title: 'Kerala Library - Knowledge & Learning Hub',
+    description:
+      'Discover the best library experience in Kerala with a rich collection of books, study resources, and digital archives. A space to learn, grow, and connect.',
+  },
+    icons: {
+    icon: '/favicon.png',
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         <meta name="author" content="Themeservices" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="/favicon.png" sizes="any" />
       </head>
       <body className={`${manrope.variable} ${work_sans.variable} ${kalam.variable}`}>
         {children}
