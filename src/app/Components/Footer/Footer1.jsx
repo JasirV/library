@@ -126,7 +126,7 @@ const Footer1 = () => {
                 <div className="footer-bottom">
                     <div className="footer-wrapper">
                         <p className="wow fadeInUp" data-wow-delay=".3s">
-                            Copyright © Jasir, All Rights Reserved.
+                            Copyright © Gexa Tech, All Rights Reserved.
                         </p>
                         <ul className="bottom-list wow fadeInUp" data-wow-delay=".5s">
                             <li>Terms of use</li>

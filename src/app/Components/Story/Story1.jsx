@@ -54,7 +54,7 @@ const Story1 = () => {
             className="video-image bg-cover"
             data-background="https://cdn-main.infourok.ru/is04/0243/0009d9ca-92fb5627.jpg"
           >
-            <a  className="video-btn  theme-btn">
+            <a href="/register"  className="video-btn  theme-btn">
               Register
             </a>
           </div>

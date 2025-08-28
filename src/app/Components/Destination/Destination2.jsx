@@ -74,7 +74,7 @@ const Destination2 = () => {
               Our Top Books For <br /> You Property
             </h2>
           </div>
-          <Link href="/" className="theme-btn">
+          <Link href="/books" className="theme-btn">
             Learn More <i className="bi bi-arrow-right"></i>
           </Link>
         </div>
