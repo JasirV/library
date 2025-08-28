@@ -15,7 +15,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
 
       <li >
-        <Link href="/service" onClick={() => setMobileToggle(false)}>
+        <Link href="/services" onClick={() => setMobileToggle(false)}>
         services
         </Link>
       </li>      

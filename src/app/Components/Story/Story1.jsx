@@ -9,14 +9,7 @@ const Story1 = () => {
   const [iframeSrc, setIframeSrc] = useState("about:blank");
   const [toggle, setToggle] = useState(false);
 
-  const handelClick = () => {
-    setIframeSrc("https://www.youtube.com");
-    setToggle(!toggle);
-  };
-  const handelClose = () => {
-    setIframeSrc("about:blank");
-    setToggle(!toggle);
-  };
+
 
   useEffect(() => {
     loadBackgroudImages();
@@ -34,10 +27,10 @@ const Story1 = () => {
       </div>
       <div className="container">
         <div className="section-title text-center">
-          <span className="sub-title wow fadeInUp">Watch Our Story</span>
+          <span className="sub-title wow fadeInUp">Our Courses </span>
           <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-            Building a Brighter Future <br />
-            Through Education, Relief & Digital Libraries
+            Shaping Futures <br />
+            Through Education, Skills & Innovation
           </h2>
         </div>
         <div className="video-wrapper">
@@ -47,10 +40,10 @@ const Story1 = () => {
               className="theme-btn wow fadeInUp wow"
               data-wow-delay=".5s"
             >
-              Contact Us<i className="bi bi-arrow-right"></i>
+              Contact<i className="bi bi-arrow-right"></i>
             </Link>
             <Link
-              href="/about"
+              href="/services"
               className="theme-btn style-2 wow fadeInUp wow"
               data-wow-delay=".7s"
             >
@@ -59,20 +52,14 @@ const Story1 = () => {
           </div>
           <div
             className="video-image bg-cover"
-            data-background="/assets/img/video-bg.jpg"
+            data-background="https://cdn-main.infourok.ru/is04/0243/0009d9ca-92fb5627.jpg"
           >
-            <a onClick={handelClick} className="video-btn video-popup">
-              <i className="bi bi-play-fill"></i>
+            <a  className="video-btn  theme-btn">
+              Register
             </a>
           </div>
         </div>
       </div>
-
-      <VideoModal
-        isTrue={toggle}
-        iframeSrc={iframeSrc}
-        handelClose={handelClose}
-      ></VideoModal>
     </section>
   );
 };

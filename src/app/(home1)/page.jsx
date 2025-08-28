@@ -19,9 +19,9 @@ const page = () => {
             <LandingPage/>
             <About2></About2>
             <Counter1></Counter1>
+            <Story1></Story1>
             <Destination2></Destination2>
             {/* <Choose2></Choose2> */}
-            {/* <Story1></Story1> */}
             {/* <FeaturedTour1></FeaturedTour1> */}
             {/* <Cta3></Cta3>
             <Testimonial2></Testimonial2>
